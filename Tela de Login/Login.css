@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(28, 226, 252), rgb(143, 5, 255)), rgb(213, 5, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Poppins;
+
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 70px;
+    height: 50%;
+    border-radius: 17px;
+
+}
+
+.container h1 {
+    text-align: center;
+    margin: 7px;
+    margin-bottom: 42px;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+    margin-top: 25px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 17px;
+
+}
+
+.login {
+    position: relative;
+    margin-bottom: 37px;
+
+}
+
+label {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    transition: .25s ease-in-out;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(143, 5, 255);
+
+}
+
+.login input:focus+label {
+    transform: translateY(-17px);
+    color: rgb(143, 5, 255);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 17px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(28, 226, 252), rgb(143, 5, 255)), rgb(213, 5, 255);
+    border: none;
+    outline: none;
+    color: #fff;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(28, 226, 252), rgb(143, 5, 255)), rgb(213, 5, 255);
+
+}
+
+.link {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+a {
+    color: rgba(0, 0, 0, 0.562);
+}
+
+a:hover {
+    color: rgb(143, 5, 255);
+
+}
